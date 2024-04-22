@@ -1,0 +1,105 @@
+/* Streamlit styles */
+.block-container {
+    height: 100vh;
+    padding: 1rem 2rem;
+}
+
+.css-z5fcl4 > div:nth-child(1) {
+    height: 100%;
+    padding: 0;
+}
+
+div.css-1sdqqxz div {
+    height: 100% !important;
+    padding: 0 !important;
+}
+
+.css-j5r0tf {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #5c6ac4; /* Deep purple color for diagnosis box */
+    color: #fff; /* White text color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+.css-1vq4p4l {
+    padding-top: 1.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.diagnosis {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.bright-red {
+    background-color: #ff4d4d; /* Red color for malignant diagnosis */
+}
+
+.bright-green {
+    background-color: #4caf50; /* Green color for benign diagnosis */
+}
+
+/* Additional styles for app */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; /* Light gray background */
+    color: #333;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff; /* White background for main container */
+    border-radius: 0.5rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #333; /* Dark gray color for title */
+}
+
+.subheader {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #555; /* Medium gray color for subheader */
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.slider-label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #777; /* Light gray color for slider label */
+}
+
+.slider-value {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    color: #999; /* Light gray color for slider value */
+}
+
+.button {
+    background-color: #5c6ac4; /* Deep purple color for button */
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.button:hover {
+    background-color: #4552b8; /* Darker purple color on hover */
+}
